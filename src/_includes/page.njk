@@ -1,0 +1,13 @@
+{% extends "base.njk" %}
+{% block body %}
+  <article class="story">
+    <div class="content">
+      <div class="story-photo">
+        {% image coverImage, "", "(max-width: 2000px) 100vw, 2000px" %}
+      </div>
+      <div class="story-content">
+        {{ content | safe }}
+      </div>
+    </div> 
+  </article>
+{% endblock %}

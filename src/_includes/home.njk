@@ -1,0 +1,29 @@
+{% extends "base.njk" %}
+{% block body %}
+  <div class="story-list">
+  <div class="grid-sizer"></div>
+  {% for story in pagination.items | sortByOrder %}
+    <article class="story">
+      <div class="content">
+        {% if story.data.coverImage %}
+        <div class="story-photo">
+          <a href="{{ site.url }}{{ story.url }}" title="{{ story.data.title }}">
+            {% image story.data.coverImage, "", "(max-width: 750px) 100vw, 750px" %}
+          </a>
+        </div>
+        {% endif %}
+        {% if story.data.content %}
+        <div class="story-content">
+          {{ story.data.content | safe }}
+        </div>
+        {% endif %}
+      </div> 
+    </article>
+  {% endfor %}
+  </div>
+  {% if pagination.href.next %}
+  <div class="site-pagination">
+    <div class="nav-next"><a class="pagination__next" href="{{pagination.href.next}}" title="Load more stories..">Load More Stories...</a></div>
+  </div>
+  {% endif %}
+{% endblock %}

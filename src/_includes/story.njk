@@ -1,0 +1,43 @@
+{% extends "base.njk" %}
+{% block body %}
+
+  <article class="story">
+    <div class="content">
+      <div class="story-photo">
+        {% image coverImage, "", "(max-width: 2000px) 100vw, 2000px" %}
+      </div>
+      <div class="story-content">
+        {{ content | safe }}
+      </div>
+    </div> 
+  </article>
+
+  <footer class="story-footer">
+    <aside class="share social">
+      <h4>Share this story...</h4>
+      <ul>
+        <li>
+        <a class="icon-facebook" rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{page.url}}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          {% include "svg-facebook.njk" %}
+        </a>
+        </li>
+        <li>
+          <a class="icon-twitter" rel="nofollow" href="https://twitter.com/share?text=“Like writing a diary…”&amp;url={{ site.url }}{{page.url}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            {% include "svg-twitter.njk" %}
+          </a>
+        </li>
+      </ul>
+      <div><input value="{{ site.url }}{{page.url}}" onClick="this.select();"></div>
+    </aside>
+    {% if prevStory.url %}
+    <aside class="read-next">
+      <h4>...then read the next.</h4>
+        <a class="read-next-story" href="{{prevStory.url}}" title="{{ prevStory.data.title }}">
+          <div class="story-photo">
+            {% image prevStory.data.coverImage, prevStory.data.title, "(max-width: 2000px) 100vw, 2000px" %}
+          </div>
+        </a>
+    </aside>
+    {% endif %}
+  </footer>
+{% endblock %}

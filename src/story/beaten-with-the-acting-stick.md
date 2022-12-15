@@ -1,0 +1,11 @@
+---
+title: "Beaten with the acting stick..."
+date: "2016-12-18"
+tags: 
+  - "garage"
+coverImage: "./src/images/karen-2.jpg"
+---
+
+I was studying drama at Laguardia High School—the “Fame” school—when the opportunity to go to Moscow Art Theater came up.   At the time, I didn't know much about Russia. My mom lived in Romania when it was a Communist country, and she remembered having Russian soldiers come through the country.  So she was very hesitant about sending her only child there; but she also knew that as far as arts and culture were concerned, I was going to get the best theater education in Moscow. There were kids in my class that were either very serious, didn't care, or were just there to get by.  I was part of that “very serious” group, but I wanted more, almost to a masochistic degree. I wanted theater to run out of me, out of my blood.  I wanted to be beaten with the acting stick. And I knew that Moscow was going to be the place that really formed me as an actor and as a person.  I wanted to get the shit kicked out of me, and I did. I went to school six days a week. We were in class from 8 or 9 in the morning until 9, 10, even 11 at night with Sunday our only day off.
+
+I also wanted to go to Moscow to be independent and to be as far away from home as possible.  I wanted to experience different people.  I wanted to be able to grow up and say, "I've been there. I've done that. I’ve met the people of Russia.” We were surrounded by incredibly talented people who spoke only Russian—and we only spoke English. That's what's so cool about theater and the arts.  You don't have to speak the same language to understand what's going on.   We had a pretty short time to decide "Okay, are we doing this?" I had to graduate early to enter the program.  We knew that this was a big opportunity. We were the first American class to be able to study four full years and graduate, and after us, there wasn't going to be another class. At the time, we were basically the first and the last. To be a part of something so historic — that was something I definitely wanted. And we planned to come back to New York afterward to start a theater company.  I thought, "Okay, this is how I'll be remembered."   I think that really was the moment of decision for me.

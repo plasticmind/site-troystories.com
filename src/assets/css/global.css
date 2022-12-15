@@ -600,6 +600,9 @@
 	margin: 10px auto 0;
 	max-width: 300px;
   }
+  .site-footer .logo path {
+    fill: var(--gray-500);
+  }
   .site-footer .motto {
 	font-size: 0.85em;
 	text-align: center;
@@ -637,14 +640,9 @@
   }
   
   /* Custom Pages */
+
   article.page {
 	padding-bottom: 40px;
-  }
-  .page-404 .site-content {
-	max-width: 540px;
-	text-align: center;
-	border: solid 1px #6a6a6a;
-	margin: 40px auto;
   }
   .single-page .story {
     padding: 0;
@@ -734,3 +732,14 @@
   
   /* Larger than Desktop HD */
   @media (min-width: 1200px) {}
+
+  /* One Off Pages */
+
+  .page-404 .site-content {
+    max-width: 540px;
+    text-align: center;
+    margin: 40px auto;
+  }
+  .page-404 .story-content:after {
+    display: none;
+  }

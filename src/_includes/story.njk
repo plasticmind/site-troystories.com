@@ -3,9 +3,11 @@
 
   <article class="story">
     <div class="content">
+      {% if coverImage %}
       <div class="story-photo">
         {% image coverImage, "", "(max-width: 2000px) 100vw, 2000px" %}
       </div>
+      {% endif %}
       <div class="story-content">
         {{ content | safe }}
       </div>

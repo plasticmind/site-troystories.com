@@ -2,7 +2,7 @@
 {% block body %}
   <div class="story-list">
   <div class="grid-sizer"></div>
-  {% for story in pagination.items | sortByOrder %}
+  {% asyncAll story in pagination.items | sortByOrder %}
     <article class="story">
       <div class="content">
         {% if story.data.coverImage %}
@@ -12,14 +12,12 @@
           </a>
         </div>
         {% endif %}
-        {% if story.data.content %}
         <div class="story-content">
           {{ story.data.content | safe }}
         </div>
-        {% endif %}
       </div> 
     </article>
-  {% endfor %}
+  {% endall %}
   </div>
   {% if pagination.href.next %}
   <div class="site-pagination">

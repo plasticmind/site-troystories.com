@@ -10,7 +10,7 @@ window.addEventListener('load', function () {
   // init Infinite Scroll
   let infScroll = new InfiniteScroll( '.story-list', {
     path: '.pagination__next',
-    append: '.story',
+    append: 'article.story',
     history: false,
     outlayer: msnry,
     hideNav: '.site-pagination'

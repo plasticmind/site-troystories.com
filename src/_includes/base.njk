@@ -6,6 +6,14 @@
     <meta name="pinterest" content="nopin" />
     <title>{% if page.fileSlug %}{{title}} // {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="{{ site.url }}/assets/css/global.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70617067-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-70617067-1');
+    </script>
   </head>
   <body class="{% if page.fileSlug %}single-page page-{{ page.fileSlug }}{% else %}home{% endif %}">
 		<div class="container">
@@ -52,6 +60,5 @@
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
     <script src="{{ site.url }}/assets/js/ts.js"></script>
-
     </body>
 </html>

@@ -13,7 +13,7 @@ When this project was active, I created a beautiful 18" x 24" poster made up ent
 
 <a href="https://www.unityhouseny.org/" title="Suppport Unity House" style="text-align: center; display: block"><img src="/assets/unity-house-logo.png" alt="Unity House logo"></a>
 
-[Unity House](http://www.unityhouseny.org/) is a human service agency based in Troy that helps meet the needs of people in our community who are hurting and struggling. They are still around and doing good work. Please consider supporting them.
+[Unity House](https://www.unityhouseny.org/) is a human service agency based in Troy that helps meet the needs of people in our community who are hurting and struggling. They are still around and doing good work. Please consider supporting them.
 
 The project is over, and the posters are not for sale. 
 

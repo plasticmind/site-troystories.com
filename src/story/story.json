@@ -1,4 +1,5 @@
 {
   "layout": "story.njk",
-  "tags": "story"
+  "tags": "story",
+  "collectionSlug": "story"
 }

@@ -25,9 +25,12 @@ window.addEventListener('load', function () {
     }).on( 'append', function( event, response, path ) {
       link.href = response;
       // console.log( location + link.pathname.slice(1) );
-      ga( 'set', 'page', link.pathname.slice(1) );
-      ga( 'send', 'pageview' );
-      ga( 'send', 'event', 'Scroll Pageview', link.pathname.slice(1) );
+      // ga( 'set', 'page', link.pathname.slice(1) );
+      // ga( 'send', 'pageview' );
+      // ga( 'send', 'event', 'Scroll Pageview', link.pathname.slice(1) );
+      gtag('event', 'page_view', {
+        page_location: link.pathname.slice(1);
+      });
     });
 
   }

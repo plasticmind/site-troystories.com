@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
       // ga( 'send', 'pageview' );
       // ga( 'send', 'event', 'Scroll Pageview', link.pathname.slice(1) );
       gtag('event', 'page_view', {
-        page_location: link.pathname.slice(1);
+        page_location: link.pathname.slice(1)
       });
     });
 
